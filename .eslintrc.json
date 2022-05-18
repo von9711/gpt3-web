@@ -6,7 +6,6 @@
     "extends": [
         "plugin:react/recommended",
         "airbnb",
-        "prettier/prettier",
         "plugin:prettier/recommended"
     ],
     "parser": "@typescript-eslint/parser",
@@ -71,7 +70,8 @@
                 "namedComponents": "arrow-function",
                 "unnamedComponents": "arrow-function"
             }
-        ]
+        ],
+        "no-unused-vars": "warn"
     },
     "settings": {
         "import/resolver": {
