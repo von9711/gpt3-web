@@ -1,9 +1,11 @@
-import React, { ReactElement } from "react";
+import React, { ReactElement, useState } from "react";
 import "./header.css";
 import people from "../../assets/people.png";
 import ai from "../../assets/ai.png";
 
 const Header = (): ReactElement => {
+  const [email, setEmail] = useState<string>("");
+
   return (
     <div className="gpt3__header section__padding">
       <div className="gpt3__header-content">
@@ -18,7 +20,12 @@ const Header = (): ReactElement => {
         </p>
 
         <div className="gpt3__header-content__input">
-          <input type="email" placeholder="Your Email Address" />
+          <input
+            type="email"
+            placeholder="Your Email Address"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
           <button type="button">Get Started</button>
         </div>
 
