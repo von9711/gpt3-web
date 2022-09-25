@@ -12,13 +12,19 @@ Figma link- https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A1
 
 ## Technology
 
-- React for creating UI components
-- Typescript for strict type checking
-- eslint for enforcing good coding practices 
+- React -> A JavaScript library for building user interfaces.
+- Typescript -> A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+- eslint -> A tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
+- Prettier -> An opinionated code formatter.
+- Git -> A free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+To install all the dependencies/packages
 
 ### `npm start`
 
@@ -27,11 +33,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
